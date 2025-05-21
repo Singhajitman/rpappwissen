@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Edit Resume{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Edit Resume</h1>
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Name:</label>
+        <input type="text" name="name" value="{{ resume.name }}" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email:</label>
+        <input type="text" name="email" value="{{ resume.email }}" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone:</label>
+        <input type="text" name="phone" value="{{ resume.phone }}" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Skills:</label>
+        <input type="text" name="skills" value="{{ resume.skills }}" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+{% endblock %}
