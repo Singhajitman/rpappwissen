@@ -1,5 +1,6 @@
-flask
-gunicorn
-flask_sqlalchemy
+Flask
+psycopg2-binary
 python-docx
 PyPDF2
+Flask_SQLAlchemy
+gunicorn
