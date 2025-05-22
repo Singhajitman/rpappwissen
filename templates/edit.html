@@ -1,29 +1,21 @@
-{% extends "base.html" %}
-{% block title %}Edit Resume{% endblock %}
+{% extends 'base.html' %}
 
 {% block content %}
-<h1 class="mb-4">Edit Resume</h1>
-<form method="post">
-    <div class="mb-3">
-        <label class="form-label">Name:</label>
-        <input type="text" name="name" value="{{ resume.name }}" class="form-control">
-    </div>
+  <h2>Edit Candidate Details</h2>
+  <form method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="{{ resume.name }}" required>
 
-    <div class="mb-3">
-        <label class="form-label">Email:</label>
-        <input type="text" name="email" value="{{ resume.email }}" class="form-control">
-    </div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" value="{{ resume.email }}" required>
 
-    <div class="mb-3">
-        <label class="form-label">Phone:</label>
-        <input type="text" name="phone" value="{{ resume.phone }}" class="form-control">
-    </div>
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone" value="{{ resume.phone }}">
 
-    <div class="mb-3">
-        <label class="form-label">Skills:</label>
-        <input type="text" name="skills" value="{{ resume.skills }}" class="form-control">
-    </div>
+    <label for="skills">Skills</label>
+    <textarea name="skills" id="skills" rows="4">{{ resume.skills }}</textarea>
 
-    <button type="submit" class="btn btn-primary">Save Changes</button>
-</form>
+    <button type="submit">Save Changes</button>
+    <a href="{{ url_for('search') }}" class="btn btn-secondary">Cancel</a>
+  </form>
 {% endblock %}

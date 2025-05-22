@@ -1,11 +1,35 @@
-{% extends "base.html" %}
-{% block title %}Upload Resume{% endblock %}
+{% extends 'base.html' %}
 
 {% block content %}
-<h1 class="mb-4">Upload Resume</h1>
-<form action="/upload" method="post" enctype="multipart/form-data" class="form-inline">
-    <input type="file" name="resume" required class="form-control mb-3">
-    <br>
-    <button type="submit" class="btn btn-primary">Upload & Parse</button>
-</form>
+  <h2>Effortless Resume Parsing & Candidate Management</h2>
+  <p>Streamline your recruitment process with SkillView, your intelligent tool for extracting key information from resumes and managing candidate data efficiently.</p>
+
+  <form method="post" enctype="multipart/form-data">
+    <label for="resume">Select a Resume File (PDF or DOCX)</label>
+    <input type="file" name="resume" id="resume" accept=".pdf,.docx" required>
+    <button type="submit">Upload & Parse</button>
+  </form>
+
+  <div class="features-section">
+    <h3>Unlock the Power of Smart Recruitment with SkillView</h3>
+    <p>Move beyond manual data entry. SkillView automates the tedious task of resume parsing, allowing you to focus on what truly matters: finding the perfect candidate.</p>
+    <ul class="features-list">
+      <li>
+        <strong>Save Time & Boost Productivity</strong>
+        <p>Automate resume data entry, reducing hours of manual work to mere seconds. Our intelligent parser quickly extracts names, contact details, and skills.</p>
+      </li>
+      <li>
+        <strong>Enhance Data Accuracy</strong>
+        <p>Minimize human error with precise extraction. Get standardized, structured data ready for your candidate database, every time.</p>
+      </li>
+      <li>
+        <strong>Effortless Candidate Search</strong>
+        <p>Instantly search your entire candidate pool by skills, name, email, or phone. Find the right talent faster with powerful search capabilities.</p>
+      </li>
+      <li>
+        <strong>Simple & Intuitive Interface</strong>
+        <p>Designed for recruiters and HR professionals, SkillView offers a clean, user-friendly experience that makes managing resumes a breeze.</p>
+      </li>
+    </ul>
+  </div>
 {% endblock %}
