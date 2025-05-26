@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Header & Navigation (minor change for app-name link) */
+/* Header & Navigation (no change) */
 header {
     background-color: #2c3e50;
     color: #fff;
@@ -37,11 +37,11 @@ header {
     font-size: 1.8em;
     font-weight: 700;
     color: #fff;
-    text-decoration: none; /* Ensure no underline on link */
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 .app-name:hover {
-    color: #4CAF50; /* Hover color for the SkillView name */
+    color: #4CAF50;
 }
 
 nav ul {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #bee5eb;
 }
 
-/* Forms (new section for buttons) */
+/* Forms (no change) */
 form {
     background-color: #fff;
     padding: 25px;
@@ -161,7 +161,7 @@ textarea {
     min-height: 80px;
 }
 
-/* Buttons - Breadth Fix for Save/Cancel */
+/* Buttons (no change) */
 button, .btn {
     background-color: #2980b9;
     color: white;
@@ -172,11 +172,11 @@ button, .btn {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
-    display: inline-block; /* Essential for min-width to work */
+    display: inline-block;
     text-align: center;
-    min-width: 120px; /* NEW: Set a minimum width for consistent breadth */
-    box-sizing: border-box; /* Include padding in width calculation */
-    margin-right: 10px; /* Space between buttons */
+    width: 150px;
+    box-sizing: border-box;
+    margin-right: 10px;
 }
 
 button:hover, .btn:hover {
@@ -198,7 +198,7 @@ button:hover, .btn:hover {
     background-color: #7f8c8d;
 }
 
-/* Table Styles (New: Fix for overlapping Edit/Delete buttons) */
+/* Table Styles (no change) */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -231,21 +231,23 @@ tr:hover {
     background-color: #eef2f5;
 }
 
-/* NEW: Style for action buttons in table cells */
 .action-buttons {
-    display: flex; /* Use flexbox to arrange items horizontally */
-    gap: 8px; /* Space between buttons */
-    align-items: center; /* Vertically align items */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.action-buttons .btn-sm { /* Small buttons for table actions */
-    padding: 8px 12px; /* Smaller padding */
-    font-size: 0.85em; /* Smaller font */
-    min-width: 60px; /* Adjust min-width for smaller buttons */
+.action-buttons .btn-sm {
+    padding: 8px 12px;
+    font-size: 0.85em;
+    width: 80px;
+    min-width: unset;
 }
 
 td .action-buttons form {
-    margin-bottom: 0; /* Remove default form margin */
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 
@@ -259,9 +261,9 @@ footer {
     font-size: 0.9em;
 }
 
-/* NEW: Styles for the Upload Page (Home) features section */
+/* Styles for the Upload Page (Home) features section (no change) */
 .features-section {
-    background-color: #e9f5ff; /* Light blue background */
+    background-color: #e9f5ff;
     padding: 30px;
     border-radius: 8px;
     margin-top: 30px;
@@ -270,7 +272,7 @@ footer {
 }
 
 .features-section h3 {
-    color: #2980b9; /* Matching button blue */
+    color: #2980b9;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
@@ -296,7 +298,7 @@ footer {
     border: 1px solid #cce0f0;
     border-radius: 8px;
     padding: 20px;
-    width: 280px; /* Fixed width for feature cards */
+    width: 280px;
     text-align: left;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
@@ -310,11 +312,72 @@ footer {
 .features-list li strong {
     color: #2c3e50;
     font-size: 1.2em;
-    display: block; /* Make strong tag block for spacing */
+    display: block;
     margin-bottom: 10px;
 }
 
-/* Responsive adjustments (updated for new elements) */
+/* NEW: Styles for the highlighted feature sections */
+.highlight-section {
+    background-color: #ffffff; /* White background */
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* Stronger shadow */
+    border: 1px solid #e0e6ea; /* Light border */
+}
+
+.highlight-section h3 {
+    color: #2c3e50; /* Darker heading */
+    font-size: 2.2em; /* Larger heading */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.highlight-section p {
+    color: #444;
+    font-size: 1.2em; /* Larger text */
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 30px auto; /* Centered paragraph with margin */
+}
+
+.integration-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between logos */
+    margin-top: 30px;
+}
+
+.integration-logos span {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #555;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.integration-logos span:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Specific styling for Wissen Sage */
+.wissen-sage-section {
+    background-color: #f7fcf7; /* Very light green */
+    border: 1px solid #d4edda; /* Green border */
+}
+
+.wissen-sage-section h3 {
+    color: #4CAF50; /* SkillView green */
+}
+
+/* Responsive adjustments (no change, already handles new blocks well) */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
@@ -370,11 +433,77 @@ footer {
     td:nth-of-type(4):before { content: "Skills:"; }
     td:nth-of-type(5):before { content: "Actions:"; }
 
-    /* Adjust features list for smaller screens */
     .features-list li {
-        width: 100%; /* Full width on small screens */
+        width: 100%;
     }
     .action-buttons {
-        justify-content: flex-end; /* Align action buttons to the right on mobile */
+        justify-content: center;
+    }
+    .highlight-section {
+        padding: 25px;
+        margin-top: 30px;
+    }
+    .highlight-section h3 {
+        font-size: 1.8em;
+    }
+    .highlight-section p {
+        font-size: 1em;
+    }
+    .integration-logos span {
+        font-size: 1.1em;
+        padding: 8px 12px;
+    }
+}
+/* Add this to the END of your static/css/style.css file */
+
+/* Styling for the list of Wissen Sage capabilities */
+.sage-capabilities {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 30px 0; /* Add some vertical space above/below the list */
+    display: grid; /* Use CSS Grid for a clean, multi-column layout */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+    gap: 25px; /* Space between each capability box */
+}
+
+.sage-capabilities li {
+    background-color: #ffffff; /* White background for each capability box */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Soft shadow for a subtle lift */
+    text-align: left; /* Ensure text inside aligns left */
+    border: 1px solid #eef5ee; /* Very light green border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.sage-capabilities li:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Stronger shadow on hover */
+}
+
+.sage-capabilities li h4 {
+    color: #2c3e50; /* Dark heading color */
+    font-size: 1.5em; /* Larger font size for the capability title */
+    margin-top: 0;
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: 600; /* Bold, but not too heavy */
+}
+
+.sage-capabilities li p {
+    font-size: 1em; /* Standard paragraph size */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Good readability */
+}
+
+/* Responsive adjustment for sage-capabilities on smaller screens */
+@media (max-width: 768px) {
+    .sage-capabilities {
+        grid-template-columns: 1fr; /* Stack capabilities in a single column */
+    }
+    .sage-capabilities li {
+        padding: 20px; /* Slightly less padding on mobile */
+    }
+    .sage-capabilities li h4 {
+        font-size: 1.3em; /* Slightly smaller heading on mobile */
     }
 }
