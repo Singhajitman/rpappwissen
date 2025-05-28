@@ -211,42 +211,38 @@ def upload_resume():
 
     return render_template('upload.html')
 
-@app.route('/search', methods=['GET', 'POST'])
+@app.route('/search', methods=['GET'])
 def search():
-    results = []
-    search_performed = False
-    keyword = ""
-    if request.method == 'POST':
-        keyword = request.form.get('keyword', '').lower().strip()
-        search_performed = True
-        if keyword:
-            results = Resume.query.filter(
-                (Resume.name.ilike(f'%{keyword}%')) |
-                (Resume.email.ilike(f'%{keyword}%')) |
-                (Resume.phone.ilike(f'%{keyword}%')) |
-                (Resume.skills.ilike(f'%{keyword}%'))
-            ).order_by(Resume.name).all()
-            if not results:
-                flash(f"No results found for '{keyword}'.", 'info')
-        else:
-            flash("Please enter a keyword to search or view all resumes.", 'info')
-            results = Resume.query.order_by(Resume.name).all()
-    else:
-        keyword = request.args.get('q', '').lower().strip()
-        if keyword:
-            search_performed = True
-            results = Resume.query.filter(
-                (Resume.name.ilike(f'%{keyword}%')) |
-                (Resume.email.ilike(f'%{keyword}%')) |
-                (Resume.phone.ilike(f'%{keyword}%')) |
-                (Resume.skills.ilike(f'%{keyword}%'))
-            ).order_by(Resume.name).all()
-            if not results:
-                flash(f"No results found for '{keyword}'.", 'info')
-        else:
-            results = Resume.query.order_by(Resume.name).all()
+    search_query = request.args.get('query', '').strip() # Get the query and remove leading/trailing whitespace
+    resumes = []
 
-    return render_template('search.html', results=results, search_performed=search_performed, keyword=keyword)
+    if search_query:
+        # Split the query by comma (e.g., "Autodesk, Catia" becomes ["Autodesk", "Catia"])
+        # Use a list comprehension to strip whitespace from each skill and filter out empty strings
+        individual_skills = [skill.strip() for skill in search_query.split(',') if skill.strip()]
+
+        if individual_skills:
+            # Start with a query for all resumes
+            query = Resume.query
+
+            # For each skill, add a filter condition.
+            # Chaining .filter() in SQLAlchemy automatically creates an AND condition.
+            # .ilike() ensures the search is case-insensitive (e.g., "autocad" matches "AutoCAD")
+            for skill in individual_skills:
+                query = query.filter(Resume.skills.ilike(f'%{skill}%'))
+
+            # Execute the query to get all matching resumes
+            resumes = query.all()
+        else:
+            # If the search_query contained only commas or spaces (e.g., ", , "),
+            # treat it as an empty search and show all resumes.
+            resumes = Resume.query.all()
+    else:
+        # If no search query was provided at all, show all resumes
+        resumes = Resume.query.all()
+
+    return render_template('search.html', resumes=resumes, search_query=search_query)
+
 
 @app.route('/edit/<int:resume_id>', methods=['GET', 'POST'])
 def edit_resume(resume_id):

@@ -507,3 +507,17 @@ footer {
         font-size: 1.3em; /* Slightly smaller heading on mobile */
     }
 }
+/* Styles for table cells containing potentially long text (like skills) */
+.results-section table td {
+    white-space: nowrap;     /* Prevents text from wrapping to the next line */
+    overflow: hidden;        /* Hides any content that overflows the cell */
+    text-overflow: ellipsis; /* Displays an ellipsis (...) for clipped text */
+    max-width: 250px;        /* Sets a maximum width for the table cell. Adjust as needed. */
+    /* This max-width combines with the Jinja2 truncation and the title attribute
+       to provide a clean display and full info on hover. */
+}
+
+/* You might want to remove or adjust previous .search-form styles if you used the ones I provided earlier,
+   as this new approach works better for the table display.
+   The .search-form and .results-section h3 styles I gave you previously for search.html are still good to keep. */
+
