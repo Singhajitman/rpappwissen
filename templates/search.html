@@ -6,17 +6,20 @@
   <form method="get" action="{{ url_for('search') }}" class="search-form">
     <input type="text" name="query" placeholder="Search by name, email, phone, or skill..." value="{{ search_query if search_query }}">
     <button type="submit">Search</button>
+    {% if search_query %}
+      <a href="{{ url_for('search') }}" class="btn btn-secondary clear-search-btn">Clear Search</a>
+    {% endif %}
   </form>
 
   {# Conditional messages: simplified logic using 'search_query' and 'resumes' #}
-  {% if search_query and not resumes %} {# A search was performed (query is present), but no results #}
+  {% if search_query and not resumes %}
     <p class="info-message">No candidates found matching your search criteria: "<strong>{{ search_query }}</strong>".</p>
-  {% elif not search_query and not resumes %} {# No search query was entered, and the database is empty #}
+  {% elif not search_query and not resumes %}
     <p class="info-message">No candidates uploaded yet. Use the "Upload Resume" link to get started.</p>
   {% endif %}
 
-  {# Display Table if there are resumes to show #}
-  {% if resumes %} {# Changed 'results' to 'resumes' #}
+  {# Display Table if there are resumes #}
+  {% if resumes %}
     <table>
       <thead>
         <tr>
@@ -24,19 +27,20 @@
           <th>Email</th>
           <th>Phone</th>
           <th>Skills</th>
-          <th>Actions</th>
+          <th>Actions</th> {# This header should be present and is now aligned #}
         </tr>
       </thead>
       <tbody>
-        {% for resume in resumes %} {# Changed 'results' to 'resumes' here as well #}
+        {% for resume in resumes %}
           <tr>
-            <td>{{ resume.name }}</td>
-            <td>{{ resume.email }}</td>
-            <td>{{ resume.phone }}</td>
-            <td>{{ resume.phone }}</td> {# This was a typo, likely should be skills #}
+            <td>{{ resume.name }}</td>     {# Correct: For Name column #}
+            <td>{{ resume.email }}</td>    {# Correct: For Email column #}
+            <td>{{ resume.phone }}</td>    {# Correct: For Phone column #}
+
+            {# THIS IS THE CORRECTED SKILLS COLUMN: No more duplicate phone TD #}
             <td>
               {% set skills_string = resume.skills %}
-              {% set max_display_length = 70 %} {# You can adjust this number based on your preference #}
+              {% set max_display_length = 70 %}
 
               {% if skills_string and (skills_string | length > max_display_length) %}
                 <span title="{{ skills_string }}">
@@ -47,10 +51,10 @@
                   {{ skills_string if skills_string else 'N/A' }}
                 </span>
               {% endif %}
-            </td> {# Display skills #}
-            <td>
+            </td>
+
+            <td> {# Correct: For Actions column #}
               <div class="action-buttons">
-                {# REMOVED THE PROBLEMTAIC 'VIEW' BUTTON HERE #}
                 <a href="{{ url_for('edit_resume', resume_id=resume.id) }}" class="btn btn-secondary btn-sm">Edit</a>
                 <form method="post" action="{{ url_for('delete_resume', resume_id=resume.id) }}" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this candidate?');">
                   <button type="submit" class="btn btn-danger btn-sm">Delete</button>
