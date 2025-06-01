@@ -213,32 +213,28 @@ def upload_resume():
 
 @app.route('/search', methods=['GET'])
 def search():
-    search_query = request.args.get('query', '').strip() # Get the query and remove leading/trailing whitespace
+    search_query = request.args.get('query', '').strip()
     resumes = []
 
     if search_query:
-        # Split the query by comma (e.g., "Autodesk, Catia" becomes ["Autodesk", "Catia"])
-        # Use a list comprehension to strip whitespace from each skill and filter out empty strings
-        individual_skills = [skill.strip() for skill in search_query.split(',') if skill.strip()]
+        query = Resume.query
 
-        if individual_skills:
-            # Start with a query for all resumes
-            query = Resume.query
+        # Split the query into individual search terms
+        search_terms = [term.strip() for term in search_query.split(',') if term.strip()]
 
-            # For each skill, add a filter condition.
-            # Chaining .filter() in SQLAlchemy automatically creates an AND condition.
-            # .ilike() ensures the search is case-insensitive (e.g., "autocad" matches "AutoCAD")
-            for skill in individual_skills:
-                query = query.filter(Resume.skills.ilike(f'%{skill}%'))
-
-            # Execute the query to get all matching resumes
+        if search_terms:
+            # Build a more complex query that searches across multiple fields
+            for term in search_terms:
+                query = query.filter(db.or_(
+                    Resume.skills.ilike(f'%{term}%'),  # Search in skills
+                    Resume.name.ilike(f'%{term}%'),    # Search in name
+                    Resume.email.ilike(f'%{term}%'),   # Search in email
+                    Resume.phone.ilike(f'%{term}%')    # Search in phone
+                ))
             resumes = query.all()
         else:
-            # If the search_query contained only commas or spaces (e.g., ", , "),
-            # treat it as an empty search and show all resumes.
             resumes = Resume.query.all()
     else:
-        # If no search query was provided at all, show all resumes
         resumes = Resume.query.all()
 
     return render_template('search.html', resumes=resumes, search_query=search_query)

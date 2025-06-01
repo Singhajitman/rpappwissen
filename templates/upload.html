@@ -1,14 +1,17 @@
 {% extends 'base.html' %}
 
+
 {% block content %}
   <h2>Effortless Talent Discovery & Management</h2>
   <p>Streamline your recruitment process with SkillView, your intelligent tool for extracting key information from resumes and managing candidate data efficiently.</p>
+
 
   <form method="post" enctype="multipart/form-data">
     <label for="resume">Select a Resume File (PDF or DOCX)</label>
     <input type="file" name="resume" id="resume" accept=".pdf,.docx" required>
     <button type="submit">Upload & Parse</button>
   </form>
+
 
   {# Feature 1 - Seamless Integrations #}
   <div class="highlight-section">
@@ -23,28 +26,38 @@
       <span>BambooHR</span>
       <span>And many more...</span>
     </div>
-    <p>Our robust API and flexible architecture allow for bidirectional data flow, empowering you to unify candidate profiles, accelerate onboarding, and leverage richer talent insights across your entire organization, globally.</p>
   </div>
+
 
   {# Feature 2 - Introducing Wissen Sage AI #}
   <div class="highlight-section wissen-sage-section">
     <h3>Introducing Wissen Sage. Your Enterprise's AI intelligence Core</h3>
-    <p>Beyond traditional talent acquisition, SkillView is poised to integrate with Wissen Sage, our proprietary AI backend engineered to unlock and leverage your organization's collective intelligence. Key capabilities include:</p>
+    <p>Beyond traditional talent acquisition, SkillView is integrated with Wissen Sage, our proprietary AI backend engineered to unlock and leverage your organization's collective intelligence. Key capabilities include:</p>
     <ul class="sage-capabilities">
         <li>
-            <h4>Precision Job-to-Candidate Scoring</h4>
-            <p>Automatically rank and score candidates against specific job descriptions. Understand at a glance how well a resume aligns with required skills, experience, and qualifications, saving hours of manual review.</p>
+            <h4>Job Description-to-Resume Scoring</h4>
+            <p>Automatically match and score candidates against specific job descriptions.</p>
         </li>
         <li>
-            <h4>Intelligent Gap Analysis</h4>
-            <p>Quickly identify what's missing in a candidate's profile relative to a job role. Pinpoint skill gaps, missing experience, or other discrepancies that might affect fit, enabling targeted follow-up or development.</p>
+            <h4>Missing Skill Analysis</h4>
+            <p>Quickly identify what's missing in a candidate's profile relative to a job role. Pinpoint skill gaps that might affect fit.</p>
         </li>
         <li>
-            <h4>Automated Red Flag Identification</h4>
-            <p>Leverage AI to detect potential inconsistencies, unusual patterns, or missing critical information in resumes. Proactively identify data anomalies that might warrant further investigation, enhancing compliance and hiring quality.</p>
+            <h4>Red Flag Identification</h4>
+            <p>Leverage AI to detect potential inconsistencies, unusual patterns, or missing critical information in resumes.</p>
+        </li>
+        <li>
+            <h4>Candidate Comparison</h4>
+            <p>Compare two candidates side-by-side against the job description, assessing their overall fit and specific strengths.</p>
+        </li>
+        <li>
+            <h4>Concise Candidate Summaries</h4>
+            <p>Receive quick, precise overviews of candidate suitability, highlighting key strengths and fit for the role</p>
         </li>
     </ul>
   </div>
+
+
 
 
   {# Existing general features section #}
@@ -53,21 +66,21 @@
     <p>Move beyond manual data entry. SkillView automates the tedious task of resume parsing, allowing you to focus on what truly matters: finding the perfect candidate.</p>
     <ul class="features-list">
       <li>
-        <strong>Save Time & Boost Productivity</strong>
-        <p>Automate resume data entry, reducing hours of manual work to mere seconds. Our intelligent parser quickly extracts names, contact details, and skills.</p>
+        <strong>Save Time</strong>
+        <p>Automate resume data entry, reducing hours of manual work to mere seconds.</p>
       </li>
       <li>
-        <strong>Enhance Data Accuracy</strong>
-        <p>Minimize human error with precise extraction. Get standardized, structured data ready for your candidate database, every time.</p>
+        <strong>Enhanced Data Accuracy</strong>
+        <p>Minimize human error with precise extraction and get a standardized and structured data.</p>
       </li>
       <li>
-        <strong>Effortless Candidate Search</strong>
-        <p>Instantly search your entire candidate pool by skills, name, email, or phone. Find the right talent faster with powerful search capabilities.</p>
+        <strong>Precise Candidate Search</strong>
+        <p>Instantly search your entire candidate pool by skills, name, email, or phone. Find the right talent faster.</p>
       </li>
       </li>
       <li>
         <strong>Simple & Intuitive Interface</strong>
-        <p>Designed for recruiters and HR professionals, SkillView offers a clean, user-friendly experience that makes managing resumes a breeze.</p>
+        <p>Designed for recruiters and HRs, with a clean, user-friendly experience that makes managing resumes a breeze.</p>
       </li>
     </ul>
   </div>

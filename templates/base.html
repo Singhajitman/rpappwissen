@@ -15,6 +15,12 @@
             </div>
             <nav>
                 <ul>
+                    {# Corrected: Wissen Sage link wrapped in an <li> #}
+                    <li>
+                        <a href="https://wissensagemodel2.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                            Wissen Sage (beta)
+                        </a>
+                    </li>
                     <li><a href="{{ url_for('upload_resume') }}">Upload Resume</a></li>
                     <li><a href="{{ url_for('search') }}">Search Candidates</a></li>
                 </ul>
