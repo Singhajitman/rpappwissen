@@ -48794,3 +48794,1253 @@ Clinician Wellness
 EMR
 EHR
 Abacus
+2000
+2003
+2008
+2012
+2022
+Procurement
+streamlining procurement processes
+vendor management
+optimizing supply chain efficiency
+problem-solving
+analytical skills
+cost savings
+improve operations
+SAP S4- HANA
+SAP MM
+Ariba ERP
+procurement life cycle
+Vendor Master Data
+Material Master Data
+supply chain management
+MS Office Suite
+Sourcing process
+RFQ process
+Source list
+PIR
+Purchase Requisition
+Material Master Creation
+Vendor Master Creation
+Inventory Management
+Goods receipt
+Invoice receipt
+Azure Active Directory
+ADFS
+Windows Server Infrastructure
+Microsoft System Center
+Office 365 Migrations
+Network Monitoring
+Windows infrastructure
+Entra ID
+Azure Identity Management
+IAM
+Microsoft 365 Suite
+VDI
+VMWareESXi 6.5
+cert manager
+Storage Area Networks
+Oracle Cloud Infrastructure
+Fiddler
+client-side HTTP trace
+Power Shell scripting
+Azure B2B
+B2C
+Office 365
+Exchange online
+AD connect
+Active Directory
+DNS
+DHCP
+GPOs
+AWS
+Azure
+GCP
+Vmware
+Hyper-V
+SCCM
+SCOM
+MDM
+Mobile Device Management
+Intune
+Azure Monitor
+Log Analytics
+Sentinel
+Azure Firewall
+Azure Load Balancer
+WAF
+VPN Gateway
+Azure ExpressRoute
+AWS Direct Connect
+Routing and Switching
+Network Protocols
+VPN
+Windows Server
+Group Policy
+File Services
+Print Services
+Web Servers
+IIS
+Azure Virtual Machines
+Azure Networking
+Azure Storage
+Azure Backup
+Azure Site Recovery
+Azure Automation
+Azure Security Center
+Azure DevOps
+PowerShell
+Bash
+Scripting
+Automation
+Symantec Antivirus Server
+device and application management
+Maximo
+Microsoft Service manager
+SCCM 2012
+Symantec DLO backup
+Configuring hardware devices
+Network deployments
+Microsoft certified Azure administrator
+Microsoft Azure Solutions Architect
+Microsoft Certified Professional
+MCP
+Cost Accounting
+Cost Control
+P&L Management
+Financial Reporting
+MIS Support
+Financial Statement Analysis
+Data Analysis
+Budget Preparation
+Expense Tracking
+Ratio Analysis
+Key Performance Indicators
+KPIs
+Variance Analysis
+Profitability Analysis
+Cash Flow Management
+Cash Forecasting
+Financial Modeling
+Data Interpretation
+Revenue Analysis
+Expenditure Analysis
+Inventory Accounting
+Fixed Assets Accounting
+financial analysis
+budgeting
+cost management
+strategic planning
+financial reporting
+audit support
+regulatory compliance
+US GAAP
+ERP systems
+Tally Prime
+accounting software
+QuickBooks
+Xero
+financial record-keeping
+bank reconciliations
+tax compliance
+MS Excel
+financial modeling
+business valuation
+Cloud-Based Accounting
+Financial Management
+Master Key Financial Analyst
+Financial Planning
+Performance Management
+Cost Management
+Internal Controls
+Planning
+Budgeting and Forecasting
+Professional Ethics
+Capital Investment Decisions
+Enterprise Risk Management
+Business Decision Analysis
+Corporate Finance
+External Financial Reporting Decisions
+Python
+SQL
+Git
+Docker
+CNNS
+RNNS
+Transformers
+LSTMS
+Data Processing
+Feature Engineering
+Statistical Analysis
+Predictive Modeling
+NLP
+Text Analytics
+ETL
+Data Pipeline Development
+Apache Airflow
+Pandas
+MLOPs
+Model Deployment
+Power BI
+Tableau
+Matplotlib
+Seaborn
+A/B Testing
+Experimentation
+Azure Business
+Tensorflow
+Scikit Learn
+Pytorch
+Algorithms
+NLTK
+Hugging Face
+Llama
+Groq
+Langchain
+Rag
+LLMs
+Prompt Engineering
+Machine learning
+Deep learning
+Big data processing
+Data-driven decision-making
+AI/ML models
+Statistical modeling
+Data pipeline development
+Generative AI
+Model integration
+Decision Tree
+Random Tree Classifier
+XGBoost Random Forest
+SMOTE
+Feature engineering
+Model interpretability tools
+Azure ML SDK
+Azure ML Studio
+Azure Container Instances
+Pipeline automation tools
+AI Agents
+CrewAI
+PydanticAI
+Logistic Regression
+TF-IDF vectorization
+NLTK preprocessing
+Data cleaning pipelines
+Cross-validation
+ROC-AUC metrics
+Data Science
+statistical reports
+visualizations
+A/B testing
+customer retention
+brand awareness
+global expansion
+linear regression analysis
+AI-driven data cleaning pipeline
+rule-based systems
+AI-assisted validation
+data cleaning
+data analysis
+data transformation
+prediction
+Sklearn
+Deep Learning
+customer churn analysis
+contractual churn
+retention strategy
+Voluntary Churn
+Non-Contractual Churn
+Involuntary Churn
+SAP
+Ariba
+Remedy Ticketing tool
+Aravo
+Service Now
+POWER BI
+MS Word
+Sourcing
+Vendor Management
+Material Data Management
+Inventory management
+P2P Cycle
+Buying Activities
+Data cleaning
+Data Validation
+Data Enrichment
+MRO
+IT Procurement
+KPI reports
+Power BI Dashboards
+Supplier Management
+Contract Management
+Vendor onboarding
+Risk Mitigation
+Spend Analysis
+Cost Savings
+Quality Assurance
+Strategic Sourcing
+Negotiation
+Stakeholder Management
+Process Improvement
+Compliance
+Analytical skills
+Organizational skills
+S2P
+Global Procurement
+Indirect Procurement
+RFQS
+Master Data
+Vendor Negotiation
+Quotation
+Purchase Order
+Vendor Master
+Material Master
+Supply Chain Management
+Contract management
+SAP/ERP
+order management
+Manufacturing process
+RFQ processes
+vendor KPI management
+Electrical parts
+Cloud based softwares
+Risk assessment for software
+SOW
+cost-saving strategies
+cost avoidance
+Microsoft Excel
+vendor onboarding
+RFQ analysis
+vendor KPI tracking
+spend analysis
+IT-related services
+SaaS
+Crib Master
+TRF
+Outlook
+Word
+PowerPoint
+SharePoint
+SpiriSoft
+P2P
+ERP Structure
+Design and Drawing knowledge
+GD & T
+In process Quality
+Supplier Quality
+Production planning
+Quality Management System
+Machine Learning
+Data Visualization
+PySpark
+Model Validation
+Model Governance
+Scorecard Development
+Credit Risk Modeling
+Acquisition Modeling
+Account Management Modeling
+Pre-screening Models
+Expected Credit Loss (ECL)
+XGBoost
+Neural Networks
+Hyperparameter Tuning
+Bayesian Estimators
+KS Statistic
+Gini
+ROC Curve
+PSI
+CSI
+CAP Curve
+Hypothesis Testing
+Root Cause Analysis (RCA)
+Google Cloud Platform (GCP)
+Automation using Python
+Team Leadership
+SPSS
+Minitab
+Regression Modeling
+Data Manipulation with Pandas
+Data Extraction with BigQuery
+Data Visualization with Matplotlib
+Plotly
+Boosting Algorithms
+BASEL III
+IFRS 9
+PD Modeling
+LGD Modeling
+EAD Modeling
+Telco Data Analysis
+Pay TV Data Analysis
+Utilities Data Integration
+Retail Portfolio Management
+Alternative Financing Strategies
+Microsoft Office 365
+SAP FICO
+Canva
+Omniscan
+Tally
+Analytical Skills
+Flexibility
+Teamwork
+Time Management
+Leadership
+Quick Learning
+Financial Analysis
+Import Receipt Processing
+Inbound Delivery Creation
+Goods Receipt Reconciliation
+Invoice Receipt Reconciliation
+Debit Note Processing
+Credit Note Processing
+Procure-to-Pay Process
+Procurement Operations
+Contract Negotiation
+Procurement Analytics
+RFQ Management
+Tactical Sourcing
+Reporting
+Microsoft PowerPoint
+Problem-Solving
+Oracle Cloud
+EFACS
+SEED ERP
+Microsoft Suite
+Email Automation
+Supplier Audits
+Cost Savings Strategy
+Critical Material Shortage Reporting
+Quality Notifications Handling
+Invoice Discrepancy Resolution
+Return Material Authorization
+RMA
+Open Order Reporting
+RFQ Automation
+Bid Analysis
+Raw Material Procurement
+Purchase Order Management
+Order Expediting
+Production Planning
+Vendor Communication
+Invoice Reconciliation
+Quality Control Documentation
+Audit Support
+PFD
+FMEA
+Control Plan
+General Accounting
+Purchase Order Processing
+Supplier Relationship Management
+Compliance Management
+Risk Management
+Optimization
+Communication Skills
+Negotiation Skills
+ERP Systems
+Procurement Software
+SAP Ariba
+SAP S4HANA
+Oracle
+Coupa
+Salesforce
+JIRA
+Microsoft Word
+Data Analytics
+Quotation Preparation
+Purchase Requisition Creation
+Inventory Tracking
+Market Research
+Supplier Performance Monitoring
+Invoice Query Resolution
+Cross-Department Coordination
+Manual Testing
+Automated Testing
+Web Application Testing
+Mobile Application Testing
+Performance Testing
+API Testing
+Agile Methodologies
+Selenium
+Firebase App Distribution
+Jira
+JMeter
+Postman
+Dialogflow
+Voicebot Testing
+IVR Testing
+WhatsApp Integration Testing
+UI Testing
+UX Testing
+System Integration Testing
+Sanity Testing
+Regression Testing
+Cross-Functional Collaboration
+WebEngage
+Test Case Development
+Test Strategy Documentation
+Bug Reporting
+Defect Resolution
+Java
+Selenium WebDriver
+TestNG Framework
+Eclipse
+BlazeMeter
+Windows
+Chrome
+Microsoft Edge
+Firefox
+Excel
+MS Office
+Notepad
+End-to-End System Testing
+Smoke Testing
+Functional Testing
+Integration Testing
+Network Engineering
+Network Analysis
+Network Design
+Capacity Planning
+Performance Tuning
+Cisco Routers
+Cisco Switches
+Cisco ASR-1k
+Cisco ASR-9k
+Cisco Multilayer Switches 4500
+Cisco Multilayer Switches 6500
+Cisco Nexus 2k
+Cisco Nexus 5k
+Cisco Nexus 7k
+Cisco Nexus 9k
+Aruba 8k
+Juniper M320
+Juniper MX80
+Juniper MX480
+Juniper MX960
+Juniper EX4200
+Juniper EX8200
+Check Point Firewall
+Palo Alto Firewall
+Fortigate Firewall
+Firewall Management
+Remote Access VPN
+DMZ Configuration
+Business Partner VPN
+Check Point Multi-Domain
+BIG-IP F5 Load Balancer
+LTM
+Virtual Servers
+Nodes
+Pools
+iRules
+RIP
+EIGRP
+OSPF
+BGP
+MPLS
+ATM
+Frame Relay
+IP Services
+QoS
+IPSec
+SSL VPN
+VLAN
+STP
+VTP
+PVST
+802.x Authentication
+HSRP
+VRRP
+SNMP
+HP OpenView
+Cisco Works
+Wireshark
+LAN
+WLAN
+WAN
+ISDN
+HDLC
+Point to Point
+IP Addressing
+Subnetting
+VLSM
+Proxy Configuration
+RADIUS
+TACACS+
+CDN
+Edge Network
+Firemon
+Gigamon
+Traffic Watch
+Splunk Reporting
+Firewall Logs
+System Health Monitoring
+KPI Alarms
+Event Detection
+TCP/IP
+UDP
+ICMP
+ARP
+RARP
+PPP
+GLBP
+Ethernet
+Cable Modem
+Wireless
+DTP
+MLPPP
+ISL
+Dot1q
+Cisco ASA
+Cisco FTD
+Firepower
+NAT
+PAT
+Ingress Firewall Design
+Egress Firewall Design
+Internet Content Filtering
+URL Filtering
+Websense
+IKE
+IDS
+IPS
+AAA
+F5 Load Balancer
+A10 Load Balancer
+UNIX
+Linux
+Cradle Point
+Ansible
+Pronghorn
+Algosec
+Syslog
+Info Vista
+Moogsoft
+Pier 2.0
+Zscaler Proxy
+Cloudflare DDoS
+Network Automation
+Accounts Payable
+Accounts Receivable
+SAP S/4HANA FICO
+Tally ERP 9
+Forecasting
+Budgeting
+Learning Agility
+Communication
+Interpersonal Skills
+Work Ethic
+Payroll Processing
+Tax Compliance
+GST Filing
+TDS Filing
+Bank Reconciliation
+Asset Management
+Profit and Loss Statement Preparation
+Balance Sheet Preparation
+Income Statement Preparation
+Cash Flow Statement Preparation
+Client Documentation Handling
+Informatica Intelligent Cloud Services
+Informatica PowerCenter
+SQL Server
+Redshift
+BODI
+Application Production Support
+L1 Support
+L2 Support
+L3 Support
+IDQ
+Data Warehousing
+Data Integration
+Star Schema
+Snowflake Model
+Shell Scripting
+Informatica performance tuning
+Autosys
+Tidal
+ETL troubleshooting
+Root Cause Analysis
+ITIL 4
+Fivetran
+Lookup
+Sequence Generator
+Union Transformation
+Debugging
+Session log analysis
+DVE tool
+SIT testing
+UAT support
+Informatica Power Center 10.2
+HP-UX
+TOAD
+Greenplum
+ServiceNow
+Informatica Power Center 9.6
+PL/SQL
+Update Strategy
+Router
+Parameter Files
+Mapping Variables
+Mapping Parameters
+Mapplet
+Designer module of Informatica
+Stored Procedures
+Workflow Manager
+Workflow Monitor
+Informatica Power Center 8.5
+Oracle 10g
+Query Transform
+Case Transform
+Merge Transform
+Validate Transform
+Map Operation Transform
+Key Generation Transformations
+Informatica administration
+Deployment groups
+Server optimization
+Informatica Power centre 9.5.1
+Informatica Power Exchange 9.5.1
+LOGGER
+LISTNER
+Informatica Power centre 10.2
+Informatica Power centre 10.4
+VB 6
+excel macro
+Functional Environment
+Performance environment
+Tera Data 15.0.1
+Oracle 11g
+SQL Server 2012
+IICS
+Informatica Power centre E1
+Control-M
+Informatica scheduler
+CDC Express
+CDC with LOGMINER
+Postgres
+RESTAPI
+uDeploy tool
+Sybase 11
+GLOSS
+SUNSYSTEM
+Intellimatch
+Flat Files
+SWIFT Files
+SWIFT Alliance
+Full Stack Developer
+Node.js
+React.js
+AWS serverless
+AWS Cognito
+Redis
+MySQL
+MongoDB
+scalable solutions
+cloud-native solutions
+high-performance solutions
+optimizing systems
+leading teams
+delivering user-focused applications
+JavaScript
+React
+Express.js
+TypeScript
+AWS Lambda
+API Gateway
+DynamoDB
+S3
+AWS CloudFormation
+SQS
+SNS
+EC2
+Kubernetes
+GitHub
+REST APIs
+Microservices
+Jenkins
+GraphQL
+Agile methodology
+Scrum
+Confluence
+ELK
+cloud-native migrations
+Redis caching
+JWT/OAuth authentication
+real-time processing
+Socket.IO
+AWS SQS
+billing APIs
+real-time tracking
+MsSQL
+SQL performance optimization
+MS Powerpoint
+Recruiting
+Management
+Communications
+Talent  Sourcing
+Interviewing
+Evaluating Talent
+Naukri
+Linkedin
+Job Adder
+Job serve
+Recruiter Flow
+Ceipal
+ATS
+Loom videos
+Screening
+Shortlisting
+Coordinating
+Onboarding
+Full cycle Recruiting
+Workday
+Abacus
+Hired Score
+Beamery
+Recruitment
+Engagement
+Decision-making
+Coordination
+Adaptability
+Attention
+Organization
+Search Techniques
+OSCP
+Offensive Security Certified Professional
+CISM
+Certified Information Security Management
+CCWA
+Cisco Wireless Associate
+Certified Ethical Hacker
+Medical Devices
+MobSF
+Rapid 7
+burp suite
+nessus
+Nmap
+gdpr
+hipaa
+pci dss
+CCC
+Common Criteria Certification
+Agile method
+DevSecOps
+SAST
+DAST
+Source code Analysis
+NMAP
+Packet Sniffers
+Packet Editors
+COLA SOFT
+Storage Devices
+iSCSI
+FC
+FCoE
+Racadm
+Agile
+Chassis management control
+CGE
+Carrier Grade Edition
+PowerPC
+mvTAF
+RAID
+LVM
+git
+Real time embedded Operating system
+CGL compliant
+next generation multi-core network architectures
+Networking
+File Systems
+Storage
+Manual testing
+automation testing
+Analyzing functional requirement documents
+testing new modules
+Open Stack
+Kernel Testing
+Storage Testing
+Manual
+Drive FW
+NIC FW
+RAID FW
+CPLD
+processors architecture
+OCTEON
+ARM
+Kernel Internals
+trouble shoot in python modules
+PRIVATE CLOUD
+THIN Clients
+C++
+ESX servers
+Virtualization
+Private Cloud Computing
+Smart Style Computing
+servers
+storage
+advanced server
+network
+Storage Virtualization technology
+Free RDP
+USB Redirect
+building new modules
+Multithreading
+Object-Oriented concepts
+Developers
+Environments owners
+Fixes
+Version Controls
+Managing & Monitoring of Thin clients
+Computer Vision
+ML
+RAG
+OpenAI
+Keras
+TensorFlow
+LangChain
+GPT
+PyPDFLoader
+ChromaDB
+Whisper Model
+Gemini
+LSTM
+Random Forest
+Transformer
+Encoder-Decoder
+CrewAi
+Agents
+Tools
+LCEL
+Langraph
+Output Parser
+Memory
+Hyperparameters of LLM
+LLM Chains
+Document Loaders
+Map
+Reduce
+Staff
+Refine
+Conversational Memory
+TextSplitter
+RAGA
+GAN
+Parameter Efficient Fine Tuning
+LORA
+qLORA
+Gradio
+HNSW
+Retrievals
+Prompt-Engineering
+VectorDatabase
+Llama2
+Grok
+OpenCV
+NumPy
+Accelrate
+BERT
+CNN
+RNN
+Linear Regression
+K-NN
+K-Means
+Decision Trees
+Boosting
+Word2Vec
+Glove
+FastText
+Text Processing
+Tokenization
+Stemming
+Lemmatization
+Data Cleaning
+Preprocessing
+Regex
+Jupyter
+Google Sheets
+Flask
+Time Series Analysis
+Web Application Security
+Mobile Application Security
+Penetration Testing
+Vulnerability Assessment
+Burp Suite Pro
+OSINT Framework
+Whois
+Team Management
+Coaching
+Training
+Operations
+Performance Evaluation
+Process Optimization
+Data Management
+Quality Management
+Data Extraction
+Security Audits
+OWASP Standards
+Remediation Recommendations
+Threat Profiling
+XSS
+SQL Injection
+Authentication Flaws
+Command Injection
+Secure Coding Practices
+Vulnerability Management
+Secure Software Development Life Cycle
+SSDLC
+CSAT Targets
+5-Why
+Quality Assurance Processes
+Industry Standards
+Stakeholder Collaboration
+Service Delivery
+Training Programs
+Performance Improvement Plans
+Customer Support
+Daily Audits
+Quality Management System tools
+KB article improvements
+Process Support
+Customer Satisfaction
+Resolution Efficiency
+Technical Support
+Escalation Resolution
+Product Launches
+Process Changes
+CompTIA Security+ 601
+Certified Ethical Hacker-CEHv11
+Information Security
+Application Security Testing
+Web Security
+Mobile Security
+Infrastructure Applications
+Static Application Security Testing
+Dynamic Application Security Testing
+Source Code Review
+False Positives/Negatives Identification
+OWASP Top 10
+ASVS
+Common Mitigation Techniques
+Mobile Security Testing
+API Security
+Threat Modelling
+Automating Security Testing
+CI/CD Pipelines
+CVES
+CWES
+Enterprise Security Tools
+SIEM Monitoring
+IDS/IPS
+Endpoint Security
+Client Interaction
+Security Awareness Training
+Acunetix
+Web Inspect
+OWASP ZAP
+Nikto
+Check Marx
+SQLMap
+Cookie Manager
+Nessus
+Snort
+Openvas
+Kali Linux
+Metasploit
+Drozer
+Mobsf
+apktool
+dex2jar
+HTML
+XML
+Splunk
+Firewall logs analysis
+System logs analysis
+Microsoft Azure
+CWE
+CVE
+SDLC
+Kick-off Meetings
+Walkthroughs
+Risk Parameter Assessments
+Vulnerability Triage
+Remediation Validation
+Security Reports
+Real-time Monitoring
+Azure Cloud Security Posture
+Policies
+Threat Monitoring
+Application Logic Analysis
+Client Reporting
+Remediation Discussions
+Documentation
+Functional Understanding of Web Apps
+Vulnerability Exploitation
+Reassessment
+post-remediation
+Network Threat Analysis
+IDS Alerts Monitoring
+Infrastructure Hardening
+Network Forensics
+Endpoint Forensics
+Compliance Checks
+Weekly/Biweekly Reporting
+Daily Observations
+Call Handling
+Pending Tasks Follow-up
+Alerts Review
+Connectors Health Status Check
+Environment Discovery
+Technical Onboarding Process Design
+Incident Response
+Malware Analysis
+Log Rhythm
+FireEye
+Pure Message
+Networking Devices Log Analysis
+Attack Identification
+Event Prioritization
+True/False Positive Determination
+File Legitimacy Analysis
+Domain Legitimacy Analysis
+Email Legitimacy Analysis
+Incident Validation
+Incident Analysis
+Escalation
+GIS
+BISON-Atlas
+Networking Operations
+System Administration
+Troubleshooting
+Facility Management
+Client Servicing
+Installation & Configuration
+2016 R2
+HP
+IBM
+DELL Hardware
+Fiber Optic Data Communication
+Power Shell Scripts
+Basic Knowledge
+VMware ESXi 5.5
+Checkpoint/PIX Firewalls
+MS Exchange
+Creating Virtual Servers
+Managing Networks and Servers
+UTP Cabling
+SC/ST/LC Connectors
+FTP & HTTP
+Terminal Services
+Remote Desktop Administration
+Telnet
+VNC
+Rdesktop
+Backup Strategy
+User Management
+Server Maintenance
+Web Server Management
+Mail Server Management
+Application Software Installation
+Anti-Viruses
+Network Printer Installation & Configuration
+Customer Service Operations
+Quality Services
+User Rights Allocation and Protection
+Low Level Design Architecture
+Wintel
+Security Infrastructure
+IT Infrastructure Management
+Data Center Auditing
+for ISO 27001 Certification
+Demoting Domain Controllers
+Migrating DHCP Servers
+Promoting Domain Controllers
+Replication Partners Configuration
+Security Groups Creation
+OUs Creation
+Citrix Integration
+Power Maintenance
+Data Center
+Data Center Move Activities
+URL Publishing in DNS
+Identity and Access Management
+Capacity Management
+Microsoft Direct Access
+Active Directory Migration
+ADMT Tool
+Quest Migration Manager
+Incident Management
+Hardware Support
+OS Support
+Connectivity Issues Troubleshooting
+Exchange Servers
+Mailflow
+Post Build Checks
+Servers
+Quality Checks
+Information Security Controls
+ISeC
+SAN Switch Migration
+I/O Multipathing
+O365
+Implementing
+Supporting
+Creating Contacts
+Distribution Groups
+Mailboxes
+Managing Recipients
+On-Premises and Hybrid Environment Management
+Azure AD
+Managing Users and Groups
+Mail Routing Issues Troubleshooting
+Mail Delivery Latency Issues Troubleshooting
+Client Connectivity Issues
+OWA
+ActiveSync
+Mailbox Database Creation & Deletion
+Permission Issues
+Mailbox
+Mailbox Replication Management
+Email Gateways Configuration & Troubleshooting
+Antispam Configuration & Troubleshooting
+Telecommunication Distribution System Maintenance
+Aircraft Docking and Guidance System Maintenance
+Gate Operating System Monitoring & Troubleshooting
+AVDGS Electronics Spare Parts Requisition
+NTFS Permissions
+Shared Permissions
+IIS Servers Administration & Monitoring
+Server Imaging
+Patching Windows Servers
+WINS
+Forerunner ATM Network Migration
+MATV and CATV System Testing & Maintenance
+FDDI Network Administration
+Control System Software Upload
+DEF Fire Alarm System
+NOVA
+MPST6000
+Substation Operations and Maintenance
+Secure Software Development Life Cycle (SSDLC)
+Node js
+Nest Js
+Express
+PHP
+Laravel
+Codeigniter
+Redux
+HTML5
+CSS3
+AWS Cloud
+Lambda
+CloudWatch Database
+IT Procurement & Purchase Order Management
+Vendor & Supplier Coordination
+Asset Lifecycle Management
+IT Contract & License Management
+Cost Negotiation & Budget Tracking
+Procurement Documentation & Reporting
+IT Products & Services Knowledge
+Inventory Control & Forecasting
+Invoice & Billing Reconciliation
+Wintel-Network
+OU's Creation
+Client Connectivity Issues Troubleshooting
